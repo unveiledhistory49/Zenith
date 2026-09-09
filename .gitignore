@@ -1,6 +1,54 @@
+# Dependencies
 node_modules/
+.pnp
+.pnp.js
+.yarn/
+.npm/
+
+# Build output
 dist/
+build/
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Test / coverage
+coverage/
+.nyc_output/
+jest_cache/
+.jest_cache/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime / project-specific generated state
 snapshots/
 .validator-data/
-*.log
+test-ledger/
+.ledger/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
 .DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temp
+*.tmp
+*.temp
+.cache/
